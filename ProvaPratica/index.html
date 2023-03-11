@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Prova prática | Acessibilidade digital </title>
+
+</head>
+
+<body>
+
+    <!-- ____________________Dark mode do site.____________________ -->
+
+    <img src="lua.png" width="150" height="150" class="posi" onclick="DarkMode()" />
+
+    <script>
+        function DarkMode() {
+            let minhaImagem = document.querySelector('img');
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            let meuSrc = minhaImagem.getAttribute('src');
+            if (meuSrc === 'lua.png') {
+                minhaImagem.setAttribute('src', 'sol.png');
+            } else {
+                minhaImagem.setAttribute('src', 'lua.png');
+            }
+
+        }
+
+    </script>
+
+    <!-- ____________________Modo de leitura em libras____________________ -->
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>;
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app&#39');
+    </script>
+
+    <header>
+        <h1> Acessibilidade digital </h1>
+    </header>
+
+    <a href="brasil.html" class="link">Quantas pessoas tem deficiências no Brasil?</a>
+    <br><br>
+    <a href="ajuda.html" class="link">Sites que ajudam pessoas com necessidades</a>
+
+    <!-- ____________________Main do código.____________________ -->
+
+    <main>
+
+        <p>Em um cenário de alta conectividade, a acessibilidade digital torna-se um elemento importante para estar bem
+            posicionado no mercado e promover a inclusão social.
+
+            O conceito explora o modo como as empresas conseguem criar experiências online inclusivas, interligando
+            estratégia, design e tecnologia.
+
+        </p>
+
+        <p>Na prática, produzir conteúdos inclusivos traz benefícios tanto para as marcas como para o público que
+            consome esse material.
+
+            Por isso, compreender os fundamentos básicos da acessibilidade é um passo importante para garantir uma
+            abordagem responsiva na web. </p>
+
+
+        <h2> O que é acessibilidade digital?</h2>
+
+        <p>A acessibilidade digital consiste no uso de soluções para tornar o conteúdo da web acessível a todos,
+            eliminando barreiras para a navegação online.
+
+            O objetivo é permitir que qualquer pessoa, independente de suas habilidades ou capacidades, consiga
+            aproveitar os materiais disponíveis na internet. </p>
+
+        <p>Para isso, são oferecidos recursos adicionais, como fontes legíveis e descrições nas imagens, que tornam o
+            conteúdo acessível e melhoram a experiência do usuário no ambiente virtual.
+
+            Esse é um passo importante na inclusão digital e social, pois possibilita que os usuários com deficiência
+            naveguem na internet com mais autonomia.</p>
+
+        <p>O tema é tão importante que, em 2012, foi criada uma data para reforçar a conscientização: o Dia Mundial da
+            Conscientização sobre Acessibilidade, celebrado toda terceira quinta-feira de maio.</p>
+
+        <h2>Qual seria a sua importância?</h2>
+
+        <p>A acessibilidade digital é indispensável para que as pessoas com deficiência possam cumprir suas funções
+            básicas online de forma independente. Como, realizar compras na internet, se informar sobre as notícias do
+            Brasil e do mundo, se relacionar através das redes sociais, estudar, trabalhar etc.</p>
+
+        <p>Mas, na verdade, muitas soluções em acessibilidade são úteis para todos os públicos, como idosos, crianças e
+            pessoas que estão momentaneamente com alguma limitação física. Pense que você pode estar um dia com o seu
+            braço dominante imobilizado, como navegar na web com uma mão só? Atalhos de teclado, por exemplo, são uma
+            forma de acessibilidade que melhora a vida de muita gente.</p>
+
+        <p>E claro, legalmente falando, a acessibilidade digital é obrigatória! Inclusão é direito das pessoas com
+            deficiência e existem algumas leis para isso. A Lei Brasileira de Inclusão, que foi mencionada
+            anteriormente, tem como objetivo assegurar os direitos destas pessoas, contemplando as mais variadas áreas.
+        </p>
+
+
+
+
+        <!-- ____________________Aside do código.____________________ -->
+
+        <aside>
+
+            <h2>Lei 13146/2015</h2>
+
+            <img src="lei.webp" width="580" height="400">
+
+            <p>No Brasil, a acessibilidade é um direito previsto na lei 13146/2015, conhecida como LBI (Lei Brasileira
+                de
+                Inclusão da Pessoa com Deficiência).
+
+                A legislação determina a acessibilidade digital em sites mantidos por empresas com sede ou representação
+                comercial no Brasil, bem como para as páginas de órgãos do governo. </p>
+
+            <p>Além da LBI também existe a lei 10098/2000, que dispõe sobre a acessibilidade nos sistemas de
+                comunicação.
+
+                O documento define o uso de mecanismos e técnicas alternativas para eliminar barreiras de comunicação
+                que
+                possam dificultar o acesso à informação e comunicação.</p>
+
+            <p>Há também o decreto 6949/2009, responsável por promulgar a Convenção Internacional sobre os Direitos das
+                Pessoas com Deficiência, assinado em Nova York, no ano de 2007.
+
+                Esse decreto fala sobre a adoção de medidas para promover a inclusão de pessoas com deficiência a meios
+                físicos e também a informação e comunicação, incluindo a internet.</p>
+
+
+        </aside>
+
+        <!-- ____________________Section do código junto com a lista ordenada.____________________ -->
+
+        <section>
+
+            <h1>Quais os tipos de Acessibilidade digital?</h1>
+
+            <ol>
+
+                <li>Perceptível</li>
+
+                <p>Todos os elementos, incluindo as informações gráficas e textuais da página, devem estar perceptíveis
+                    aos
+                    sentidos. Nada pode estar invisível ou escondido. </p>
+
+                <li>Operável</li>
+
+                <p>Os botões, controles e outros elementos interativos da página, devem ser operados com cliques e
+                    outras
+                    adaptações, como: rolando, deslizando, comando de voz e outros dispositivos assistivos.
+
+                </p>
+
+                <li>Compreensível</li>
+
+                <p>Todas as informações disponíveis, incluindo botões e seus direcionamentos, devem estar apresentadas
+                    de
+                    forma lógica e compreensível para todos os usuários.</p>
+
+                <li>Robusto</li>
+
+                <p>O conteúdo da página deve ser compatível com todos os dispositivos, incluindo as tecnologias
+                    assistivas.
+                </p>
+
+            </ol>
+
+        </section>
+
+
+
+
+        <!-- ____________________Artcile do código junto com a lista desordenada.____________________ -->
+
+        <article>
+
+            <h1>Quais são as possíveis deficiências?</h1>
+
+            <ul>
+
+                <li>Visual</li>
+                <li>Auditiva</li>
+                <li>física</li>
+                <li>intelectual</li>
+                <li>psicossocial</li>
+
+                <img src="defi.jpg" width="530" height="330" class="oof">
+
+
+
+            </ul>
+
+        </article>
+
+
+        <!-- ____________________Link do youtube.____________________ -->
+
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/dyvZqfp4pr8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen class="video"></iframe>
+
+        <div>
+
+            <p>Caso você seja um produtor de sites, veja o vídeo aqui do lado, <br>pois ajuda muito e explica em
+                melhores
+                detalhes sobre acessibilidade digital.</p>
+
+            <p>Pode parecer brincadeira, mas é extremamente importante manter o seu site <br> acessível, pois não ajuda
+                só
+                eles, mas ajuda você também.</p>
+
+        </div>
+
+
+        <section class="bom">
+
+            <h1>Benefícos de tornar seu site mais acessível!</h1>
+
+            <p>| promove igualdade social</p>
+            <p>| Ampliação do público</p>
+            <p>| Inovação</p>
+            <p>| impacto da marca</p>
+
+            <img src="as.png" width="200" height="200" class="as">
+            <img src="cadera.png" width="200" height="200" class="cadera">
+            <img src="lampada.png" width="200" height="200" class="lampada">
+
+
+        </section>
+
+
+        <footer>
+
+            <p>todos os diretos são reservados para Sugiyama©. Qualquer dúvida mande um e-mail para sugiyama@gmail.com.
+                Obrigado a todos e ajudemos todos os necessitados.</p>
+
+        </footer>
+
+    </main>
+
+
+</body>
+
+
+</html>

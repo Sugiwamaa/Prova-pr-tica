@@ -1,0 +1,259 @@
+/* Funcionalidade do Dark mode e onde o ícone estará fixado. */
+
+.dark-mode {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+    
+    }
+
+.posi {
+
+position: fixed;
+top: 20px;
+right: 20px;
+
+}
+
+
+
+.link {
+
+    color: blueviolet;
+font-size: 30px;
+position: relative;
+bottom: 300px;
+left: 50px;
+grid-auto-flow: row;
+    
+    
+    }
+
+header h1 {
+
+text-align: center;
+font-size: 100px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: rgb(179, 80, 80);
+height: 230px;
+width: 700px;
+border-radius: 10px;
+position: relative;
+left: 620px;
+bottom: 40px;
+grid-auto-flow: row;
+grid-auto-flow: column;
+
+}
+
+main {
+
+    background-color: #6399BB;
+    width: 1200px;
+    height: 1000px;
+    border-radius: 5px;
+    grid-auto-flow: column;
+    
+    
+    }
+
+p {
+
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+grid-auto-flow: row;
+
+}
+
+h2 {
+
+font-size: 50px;
+color: rgb(161, 236, 48);
+text-decoration: underline;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+grid-auto-flow: row;
+
+}
+
+aside {
+
+background-color: rgb(179, 86, 179);
+width: 600px;
+height: 1000px;
+position: relative;
+left: 1220px;
+bottom: 1000px;
+border-radius: 10px;
+text-align: center;
+grid-auto-flow: column;
+
+
+}
+
+section {
+
+background-color: burlywood;
+position: relative;
+bottom: 1000px;
+height: 700px;
+width: 1000px;
+border-radius: 10px;
+grid-auto-flow: column;
+
+}
+
+section h1 {
+
+color: rgb(204, 46, 46);
+font-size: 55px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: underline;
+grid-auto-flow: row;
+
+
+}
+
+section li {
+
+font-size: 50px;
+position: relative;
+left: 20px;
+color: rgb(202, 36, 36);
+text-decoration: underline;
+
+}
+
+article {
+
+background-color: rgb(39, 182, 98);
+position: relative;
+left: 1020px;
+bottom: 1741px;
+width: 800px;
+height: 700px;
+border-radius: 10px;
+
+
+}
+
+article h1 {
+
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    grid-auto-flow: row;
+
+}
+
+article li {
+
+font-size: 50px;
+text-decoration: underline;
+position: relative;
+left: 30px;
+bottom: 30px;
+
+}
+
+.oof {
+
+position: relative;
+left: 80px;
+bottom: 25px;
+border-radius: 10px;
+
+}
+
+.video {
+
+position: relative;
+bottom: 1600px;
+left: 50px;
+
+}
+
+div{
+
+position: relative;
+bottom: 2000px;
+left: 900px;
+
+
+}
+
+div p {
+
+font-size: 23px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration:underline;
+grid-auto-flow: row;
+
+}
+
+.bom {
+
+background-color: rgb(245, 239, 239);
+position: relative;
+bottom: 1700px;
+right: 10px;
+width: 2000px;
+height: 600px;
+text-align: center;
+}
+
+.bom p {
+
+font-size: 40px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: left;
+color: rgb(55, 165, 79);
+
+}
+
+.as {
+
+position: relative;
+bottom: 250px;
+right: 300px;
+
+}
+
+.cadera {
+
+position: relative;
+bottom: 250px;
+
+}
+
+.lampada {
+
+position: relative;
+bottom: 250px;
+left: 300px;
+
+}
+
+footer {
+
+background-color: rgb(179, 80, 80);
+text-align: center;
+width: fit-content;
+height: auto;
+position: relative;
+left: 300px;
+
+
+}
+
+footer p {
+
+color: white;
+font-size: 15px;
+
+
+}
+
+
+

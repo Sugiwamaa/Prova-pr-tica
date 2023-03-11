@@ -1,0 +1,54 @@
+.dark-mode {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+    
+    }
+
+.posi {
+
+position: fixed;
+top: 20px;
+right: 20px;
+
+}
+
+h1 {
+    
+    text-align: center;
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(179, 80, 80);
+    height: 190px;
+    width: 700px;
+    border-radius: 10px;
+    position: relative;
+    left: 620px;
+    grid-auto-flow: row;
+
+}
+
+p {
+
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+grid-auto-flow: row;
+
+}
+
+.bra {
+
+position: relative;
+left: 450px;
+
+}
+
+.link {
+
+font-size: 40px;
+grid-auto-flow: row;
+
+}
+
+

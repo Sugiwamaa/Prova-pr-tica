@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Sites que ajudam</title>
+</head>
+
+<body>
+
+    <img src="lua.png" width="150" height="150" class="posi" onclick="DarkMode()" />
+
+    <script>
+        function DarkMode() {
+            let minhaImagem = document.querySelector('img');
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            let meuSrc = minhaImagem.getAttribute('src');
+            if (meuSrc === 'lua.png') {
+                minhaImagem.setAttribute('src', 'sol.png');
+            } else {
+                minhaImagem.setAttribute('src', 'lua.png');
+            }
+
+        }
+
+    </script>
+
+    <h1>Sites que ajudam pessoas com deficiências</h1>
+
+    <a href="index.html" class="link"> &lt; Voltar</a>
+
+    <h2>HandTalk</h2>
+
+    <img src="mao.jpg" alt="Site HandTalk" width="600" height="400" class="mao">
+
+    <p>Hand Talk é um aplicativo nacional de comunicação alternativa que tem como objetivo realizar a tradução de texto
+        e voz para Libras (Língua Brasileira de Sinais) de modo online, além de oferecer extensão para os sites,
+        tornando todas as informações digitais acessíveis para as pessoas com deficiência auditiva.
+
+        A ferramenta possui dois intérpretes digitais, os avatares Hugo e Maya, que podem ser ajustados de acordo com o
+        usuário e desenvolvem os sinais e gestos para facilitar a comunicação com as pessoas surdas ou com dificuldade
+        auditiva. O aplicativo também disponibiliza uma sessão com vídeos educativos e uma área de dicionário.
+        <br><br> <a href="https://www.handtalk.me/br/" target="_blank">https://www.handtalk.me/br/</a>
+
+    <h2>Be My Eyes</h2>
+
+    <img src="eyes.png" alt="Site Be My Eyes" width="600" height="400" class="eyes">
+
+    <p>O Be My Eyes conecta voluntários videntes (pessoas que enxergam) com pessoas com deficiência visual que
+        necessitam de auxílio para executar uma tarefa cotidiana, como saber a cor da camisa que estão comprando em uma
+        loja, descobrir a marca ou a validade de um produto no supermercado, realizar uma compra online, entre outras
+        atividades, tornando tais atividades mais acessíveis.
+
+        O Aplicativo se encaixa na categoria de auxílio para a vida diária e prática e também é um grande exemplo de
+        como as soluções para as dificuldades vividas por pessoas com deficiência muitas vezes são simples, basta que se
+        tenha um olhar sensível o suficiente para enxergá-la.
+        <br><br> <a href="https://www.bemyeyes.com/language/portuguese-brazil"
+            target="_blank">https://www.bemyeyes.com/language/portuguese-brazil</a>
+    </p>
+
+    <h2>Civida</h2>
+
+    <img src="vida.jpg" alt="Site Civida" width="600" height="400" class="vida">
+
+    <p>Idealizado por Lucas Humberto Reinhardt, o Civida é um aplicativo a serviço da saúde que se mescla com uma
+        espécie de projeto social. Isso porque seu principal interesse é ajudar o próximo, permitindo que pessoas que
+        não possuem condições financeiras consigam receber equipamentos emprestados ou doados.
+
+        Assim, tanto pessoas pertencentes à população quanto empresas e organizações podem contribuir e mudar a vida de
+        um indivíduo com deficiência que precisa de suporte em um momento de tanta dificuldade.</p>
+
+    <p>A ideia, inclusive, é auxiliar sujeitos que tenham mobilidade reduzida ou que, por alguma razão, dependam de
+        muletas e cadeiras de rodas. Ademais, os que precisarem também de aparelhos auditivos e outros itens similares
+        também poderão contar com o apoio do aplicativo.
+
+        Vale lembrar, aliás, que o Civida não está sozinho nesta empreitada. Portanto, outros locais estão nos
+        bastidores da iniciativa, como o Instituto 3M e a Faculdades Integradas de Taquara.
+        <br><br> <a href="https://civida.ca" target="_blank">https://civida.ca</a>
+    </p>
+</body>
+
+</html>

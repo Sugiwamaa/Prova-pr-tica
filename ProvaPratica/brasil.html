@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Gráfico no Brasil</title>
+</head>
+
+<body>
+
+    <img src="lua.png" width="150" height="150" class="posi" onclick="DarkMode()" />
+
+    <script>
+        function DarkMode() {
+            let minhaImagem = document.querySelector('img');
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            let meuSrc = minhaImagem.getAttribute('src');
+            if (meuSrc === 'lua.png') {
+                minhaImagem.setAttribute('src', 'sol.png');
+            } else {
+                minhaImagem.setAttribute('src', 'lua.png');
+            }
+
+        }
+
+    </script>
+
+    <h1>Deficiência no Brasil</h1>
+
+    <a href="index.html" class="link"> &lt; Voltar</a>
+    <p>Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e portais sejam
+        projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as
+        páginas. As diversas barreiras encontradas nos sítios eletrônicos atingem principalmente as pessoas com
+        deficiência. Ao utilizarem a Web e seus recursos, as pessoas com deficiência ou outras limitações, deparam-se
+        com obstáculos que dificultam e, muitas vezes, impossibilitam o acesso aos conteúdos e páginas. No Brasil,
+        segundo o Censo Demográfico do IBGE de 2010, há aproximadamente 45 milhões de pessoas que apresentam pelo menos
+        uma das deficiências investigadas. Esse número representa 23,9% da população brasileira. Um percentual a ser
+        considerado quando discutimos a importância de implementar a acessibilidade nos sítios governamentais.</P>
+
+    <img src="brasil.jpg" width="1000" height="600" class="bra">
+
+
+
+</body>
+
+</html>

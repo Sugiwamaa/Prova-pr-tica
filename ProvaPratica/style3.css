@@ -1,0 +1,82 @@
+h1 {
+
+    text-align: center;
+    font-size: 66px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(179, 80, 80);
+    height: 230px;
+    width: 700px;
+    border-radius: 10px;
+    position: relative;
+    left: 580px;
+    grid-auto-flow: row;
+
+}
+
+.dark-mode {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+    
+    }
+
+.posi {
+
+position: fixed;
+top: 20px;
+right: 20px;
+
+}
+
+a {
+
+text-align: center;
+font-size: 40px;
+color: rgb(52, 52, 255);
+grid-auto-flow: row;
+
+}
+
+h2 {
+
+text-align: center;
+font-size: 70px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+grid-auto-flow: row;
+
+}
+
+p {
+
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-auto-flow: row;
+    
+ }
+
+ .mao {
+
+position: relative;
+left: 600px;
+border-radius: 10px;
+
+ }
+
+ .eyes {
+
+    position: relative;
+    left: 600px;
+    border-radius: 10px;
+
+ }
+
+ .vida {
+
+    position: relative;
+    left: 600px;
+    border-radius: 10px;
+
+
+ }
